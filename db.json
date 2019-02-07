@@ -1,14 +1,27 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "characters": [{
+            "id": "1",
+            "description": "Issue no 1",
+            "severity": "Minor",
+            "status": "Closed",
+            "created": "11/11/2018",
+            "resolved": "25/11/2018"
+        },
+        {
+            "id": "2",
+            "description": "Issue no 2",
+            "severity": "Major",
+            "status": "Open",
+            "created": "02/12/2018",
+            "resolved": ""
+        },
+        {
+            "id": "3",
+            "description": "Issue no 3",
+            "severity": "Critical",
+            "status": "In progress",
+            "created": "05/12/2018",
+            "resolved": ""
+        }
+    ]
 }
